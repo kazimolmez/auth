@@ -1,0 +1,24 @@
+{
+    "name": "samirrustamov/auth",
+    "description": "Php Authentication library",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["Auth", "Authentication","library"],
+    "authors": [
+        {
+            "name": "Samir Rustamov",
+            "email": "rustemovv96@gmail.com",
+            "homepage": "https://github.com/SamirRustamov/Auth",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+      "php": ">=7.0.0"
+    },
+
+    "autoload": {
+        "psr-4":{
+          "TT\\":"src/"
+        }
+    }
+}
